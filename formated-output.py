@@ -21,3 +21,5 @@ name2 = input("name2:")
 info1 = "i want to confirm, %s is the most important to %s" % (name1, name2)
 print(info1)
 print(info)
+result = 5/3
+print('%.3f' % result)
