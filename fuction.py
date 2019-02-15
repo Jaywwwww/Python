@@ -28,11 +28,11 @@ def make_album(singer, album, song_amount=''):
         album_set = {'name':singer , 'album_name': album}
     return album_set
 
-#display_message()
-#favorite_books('darkness')
-#make_shirt(size='M')
-#print(get_formated(input('please input first name: '),input('last name: '),input('middle name:')))
-#print(city_country('beijing', 'china'))
+display_message()
+favorite_books('darkness')
+make_shirt(size='M')
+print(get_formated(input('please input first name: '),input('last name: '),input('middle name:')))
+print(city_country('beijing', 'china'))
 print(make_album('Jay Chou', 'Yehuimei', 5))
 
 
